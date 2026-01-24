@@ -1,4 +1,4 @@
-package project
+package DSA
 
 fun main() {
     var num=1234311

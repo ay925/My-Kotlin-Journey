@@ -16,7 +16,7 @@ fun main() {
     }else{
         println("Not Palindrome")
     }
-
+ //text
     val text="nitin"
     var revtext=""
     var n=text.length

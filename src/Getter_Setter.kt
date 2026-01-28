@@ -9,7 +9,7 @@ class Voter(){
          get()=field
          set(value) {
              if (value<18){
-                 println("Age can not be less 18")
+                 println("Age can not be lesser than 18")
              }
              else{
                  field=value

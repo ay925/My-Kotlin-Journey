@@ -9,7 +9,7 @@ fun main() {
 //    println(animal.colour)
 }
 class Animal(var name: String, var age:Int, var breed:String,var colour: String){
-    constructor(animalName:String,animalColor: String):this(animalName,1,"jersey",animalColor)//this is called secondary constructor
+    constructor(animalName:String,animalColor: String):this(animalName,1,"jersey",animalColor)//this is called as a secondary constructor
 //    var name: String=name
 //    var age:Int =age
 //    var breed: String=breed

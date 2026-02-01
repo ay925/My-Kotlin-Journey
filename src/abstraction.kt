@@ -2,20 +2,28 @@ fun main() {
 //    val rect:Shape=Rectangle()
 //    rect.draw()
     val shape =Rectangles()
-    val array=arrayOf(Rectangles(),Circles(),Squares(),Tringles())
+    val array=arrayOf(Rectangles(),Circles(),Squares(),Tringles(),Picture())
     for (shape in array){
-        shape.draw()
+//        shape.draw()
         shape.name()
     }
+//    val pic1=Picture()
+//    pic1.name()
 }
-abstract class Shapes{
+abstract class Shapes:Name{
     abstract var i:Int
     abstract fun draw()
-    abstract fun name()
+//    abstract fun name()
     fun type(){
 
     }
 }
+interface Name{
+    fun name()
+}
+//interface xyz{
+//    fun xyz()
+//}
 class Rectangles():Shapes(){
     override var i=0
     override fun draw(){
@@ -60,6 +68,11 @@ class Tringles():Shapes(){
     override fun name() {
         println("Name is Tringle")
 
+    }
+}
+class Picture:Name{
+     override fun name(){
+        println("Name is picture")
     }
 }
 

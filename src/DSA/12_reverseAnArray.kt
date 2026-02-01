@@ -11,5 +11,5 @@ fun reverseAnArray(arr: IntArray,left:Int,right:Int): IntArray{
 }
 
 fun main() {
-    println(reverseAnArray(intArrayOf(1,2,3,4,5,6,7,8,9,0),0,9).joinToString())
+    println(reverseAnArray(intArrayOf(1,2,3,4,5,6,7,8,9,0),0,9).joinToString(prefix = "[", postfix = "]"))
 }

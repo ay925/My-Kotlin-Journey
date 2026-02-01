@@ -1,4 +1,4 @@
-package Leetcode
+package DSA.Leetcode
 
 class Solution4 {
     fun fib(n: Int): Int {

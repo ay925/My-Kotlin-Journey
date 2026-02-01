@@ -1,4 +1,4 @@
-package Leetcode
+package DSA.Leetcode
 
 class Solution3 {
     fun reverse(x: Int): Int {

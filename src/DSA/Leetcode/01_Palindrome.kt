@@ -1,4 +1,4 @@
-package Leetcode
+package DSA.Leetcode
 
  class Solution {
     fun isPalindrome(x: Int): Boolean {

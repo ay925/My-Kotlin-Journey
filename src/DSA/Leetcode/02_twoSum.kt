@@ -1,4 +1,4 @@
-package Leetcode
+package DSA.Leetcode
 
 class Solution2{
     fun twoSum(nums: IntArray, target: Int): IntArray {

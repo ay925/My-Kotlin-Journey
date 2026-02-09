@@ -1,4 +1,4 @@
-package DSA.Leetcode
+package DSA
 
 fun main(){
     val nums=listOf(55,32,97,55,45,32,88,21)

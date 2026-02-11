@@ -14,5 +14,11 @@ class Solution15 {
             }
             j++
         }
+        return i+1
     }
+}
+
+fun main(){
+    val q=Solution15()
+    print(q.removeDuplicates(intArrayOf(1,1,1,2,3,4,4,7,9,9,9,10)))
 }

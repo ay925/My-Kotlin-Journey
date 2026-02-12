@@ -17,6 +17,6 @@ fun main() {
 
 
 //Function overloading
-fun add(a:Int, b:Int):Int =a+b
-fun add(a: Int,b: Int,c: Int)=a+b+c
+//fun add(a:Int, b:Int):Int =a+b
+//fun add(a: Int,b: Int,c: Int)=a+b+c
 

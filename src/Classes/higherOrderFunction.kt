@@ -30,8 +30,9 @@ fun div(x:Int,y:Int):Int{
 fun rem(x:Int,y:Int):Int{
     return x%y
 }
-
+/*
 fun arithmeticOpr(a:Int,b:Int,fn:(Int, Int)->Int){
     val result=fn(a,b)
     println("Result is $result")
 }
+*/

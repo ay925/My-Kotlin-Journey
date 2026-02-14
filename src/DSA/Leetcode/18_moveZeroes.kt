@@ -19,3 +19,7 @@ class Solution18 {
         }
     }
 }
+fun main(){
+    val q=Solution18()
+    print(q.moveZeroes(intArrayOf(1,0,2,4,3,0,0,3,5,1)))
+}

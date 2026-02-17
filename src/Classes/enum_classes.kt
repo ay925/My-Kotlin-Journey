@@ -1,7 +1,7 @@
 package Classes
 
 fun main() {
-    val direction=Direction.EAST
+    val direction=Direction.WEST
 //    println(direction.number)
 //    for (i in Classes.Direction.entries){
 //        println(i.name)
@@ -14,6 +14,6 @@ enum class Direction(val number: Int){
     NORTH(3),
     SOUTH(4);
     fun printDirectionName(){
-        println("Classes.Name of the Classes.Direction = $this")
+        println("Name of the Direction = $this")
     }
 }

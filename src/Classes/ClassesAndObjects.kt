@@ -1,12 +1,12 @@
 package Classes
 
 fun main() {
-    val person1=Person("Anupam Yadav",18,"Male","Classes.Student")
+    val person1=Person("Anupam Yadav",18,"Male","Student")
     val person2=Person("Aditya Yadav",19,"Male","Businessman")
-    val person3=Person("Ayush verma",18,"Male","Classes.Student")
+    val person3=Person("Ayush verma",18,"Male","Student")
     println("Person1 name is ${person1.name}")
     person1.work()
-    println("Classes.Person2 name is ${person2.name}")
+    println("Person2 name is ${person2.name}")
     person2.work()
     println("Person3 name is ${person3.name}")
     person3.work()

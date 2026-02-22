@@ -22,20 +22,23 @@ fun main() {
  */
 
 fun main() {
-    val num=listOf(1,99,101,98,2,5,3,100)
-    val nums=num.sorted()
+    val nums=listOf(1,99,101,98,2,5,3,100)
+    val nums2=nums.sorted()
     var count=0
-    val n=nums.size
-    var last_smallest= Int.MIN_VALUE
+    val n=nums2.size
+    var lastSmaller= Int.MIN_VALUE
     var langest=0
     for (i in 0 until n){
-        val num=nums[i]
-        if (num-1==last_smallest){
+        val num=nums2[i]
+        if (num==lastSmaller){
+            continue
+        }
+        if (num-1==lastSmaller){
             count++
-            last_smallest=num
-        }else if(num-1 !=last_smallest){
+            lastSmaller=num
+        }else if(num-1 !=lastSmaller){
             count=1
-            last_smallest=num
+            lastSmaller=num
         }
         if (count>langest){
             langest=count

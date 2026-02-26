@@ -1,7 +1,7 @@
 package DSA.Classes
 
 fun main(){
-    val nums=listOf(3,0,1)
+    val nums=listOf(5,1,3,4)
     val n=nums.size
     var sumOfNums=0
     var sumOfIteration=0

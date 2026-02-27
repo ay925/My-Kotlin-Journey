@@ -1,6 +1,6 @@
 package DSA.Leetcode
 
-class Solution30 {
+class Solution29 {
     fun spiralOrder(matrix: Array<IntArray>): List<Int> {
         val rows=matrix.size
         val cols =matrix[0].size

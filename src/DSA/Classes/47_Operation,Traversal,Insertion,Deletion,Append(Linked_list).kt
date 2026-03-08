@@ -16,4 +16,18 @@ fun main() {
     node3.next = node4
 
     println(node1.next?.next?.next?.value ?: 0)
-}
+
+    class SinglyLinkedList {
+
+        var head: Node? = null
+
+        fun append(value: Int) {
+
+            val newNode = Node(value)
+
+            if (head == null) {
+                head = newNode
+            }
+            }
+        }
+    }

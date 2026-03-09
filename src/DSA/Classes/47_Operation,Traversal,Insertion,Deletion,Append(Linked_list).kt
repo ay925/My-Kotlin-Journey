@@ -28,6 +28,13 @@ fun main() {
             if (head == null) {
                 head = newNode
             }
+            else{
+                var curr=head
+                while (curr?.next !=null){
+                    curr=curr.next
+                }
+                curr?.next=newNode
+            }
             }
         }
     }

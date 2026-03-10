@@ -1,6 +1,6 @@
 package DSA.Leetcode
 
-class Solution40 {
+class Solution41 {
     fun convert(s: String, numRows: Int): String {
         // Edge cases: if 1 row or more rows than characters, return original string
         if (numRows == 1 || numRows >= s.length) return s

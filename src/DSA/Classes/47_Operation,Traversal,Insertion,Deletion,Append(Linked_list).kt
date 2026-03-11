@@ -34,6 +34,13 @@ class Node(var value: Int) {
                 }
             }
         }
+        fun insert(value:Int, position:Int){
+            val newNode= Node(value)
+            if (position==0){
+                newNode.next=head
+                head=newNode
+            }
+        }
 
     }
 

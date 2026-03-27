@@ -1,6 +1,6 @@
 package DSA.Leetcode
 
-class Solution002 {
+class Solution02 {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         val n=nums.size
         for (i in 0 until n ){
@@ -14,6 +14,6 @@ class Solution002 {
     }
 }
 fun main() {
-    val answer= Solution002()
+    val answer= Solution02()
     println(answer.twoSum(intArrayOf(3,3),6).joinToString())
 }

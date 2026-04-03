@@ -1,4 +1,4 @@
-package my_Project
+package myProject
 
 fun main() {
     val student1= Student("Anupam",22,100)

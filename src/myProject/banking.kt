@@ -1,4 +1,4 @@
-package my_Project
+package myProject
 
 fun main() {
     val costumer1= Bank(name = "Anupam",3000)

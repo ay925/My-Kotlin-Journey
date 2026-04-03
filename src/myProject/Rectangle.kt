@@ -1,4 +1,4 @@
-package my_Project
+package myProject
 
 fun main(){
     val rectangle= Rectangle(length = 20.0, width = 30.0)

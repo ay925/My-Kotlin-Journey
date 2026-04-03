@@ -17,6 +17,8 @@ fun main(){
     print(profit)
 }
 */
+
+
 //optimal approach
 
 fun main(){
@@ -24,7 +26,7 @@ fun main(){
     val n=nums.size
     var buy=nums[0]
     var profit=0
-    for(i in 0 until n){
+    for(i in 1 until n){
         if(nums[i]<buy){
             buy=nums[i]
         }

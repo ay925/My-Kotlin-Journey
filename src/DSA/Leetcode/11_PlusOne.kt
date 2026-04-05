@@ -1,6 +1,5 @@
 package DSA.Leetcode
 
-import DSA.Classes.factorial
 
 class Solution11 {
     fun plusOne(digits: IntArray): IntArray {

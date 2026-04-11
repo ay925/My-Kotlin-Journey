@@ -2,7 +2,7 @@ package DSA.Neetcode
 
 class Solution04 {
     fun isPalindrome(s: String): Boolean {
-        val sCleaned=s.replace(Regex("[^A-Za-z]"), "").lowercase()
+        val sCleaned=s.replace(Regex("[^A-Za-z0-9]"), "").lowercase()
         val n=sCleaned.length
         var left=0
         var right=n-1

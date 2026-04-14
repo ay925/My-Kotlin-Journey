@@ -1,7 +1,7 @@
 package DSA.Neetcode
 
 
-class Solution01 {
+class Solution {
     fun hasDuplicate(nums: IntArray): Boolean {
         val frequencyOfNumbers=mutableMapOf<Int, Int>()
         for (i in nums){
@@ -20,6 +20,6 @@ class Solution01 {
     }
 }
 fun main() {
-    val answer= Solution01()
+    val answer= Solution()
     print(answer.hasDuplicate(intArrayOf(1, 2, 3, 4)))
 }

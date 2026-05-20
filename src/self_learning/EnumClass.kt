@@ -1,13 +1,8 @@
 package self_learning
 
 fun main() {
-//    val day= Day.Monday
-//    println(day)
-    val tile: Tile= Red("Anupam",25)
-    when(tile){
-        is Blue -> println(tile.points*2)
-        is Red -> println(tile.points*3)
-    }
+    val day= Day.Monday
+    println(day)
 }
 enum class Day {
     Monday,
@@ -18,6 +13,3 @@ enum class Day {
     Saturday,
     Sunday
 }
-sealed class Tile
-class Red(val type: String,val points: Int): Tile()
-class Blue(val type: String,val points: Int): Tile()

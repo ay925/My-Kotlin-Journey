@@ -1,7 +1,7 @@
 package dsa.dsa_master_Sheet
 
 class Solution04 {
-    fun arraySum(n: Int): Int {
+    fun sumOfDigits(n: Int): Int {
         var sum = 0
         var num = n
         while (num > 0) {
@@ -15,6 +15,6 @@ class Solution04 {
 
 fun main() {
     val solution = Solution04()
-    val result = solution.arraySum(123)
+    val result = solution.sumOfDigits(123)
     print(result)
 }

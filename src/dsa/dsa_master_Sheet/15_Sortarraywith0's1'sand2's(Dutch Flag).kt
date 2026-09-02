@@ -24,7 +24,6 @@ class Solution15 {
                 m++
             }
         }
-        print(nums.contentToString())
     }
 }
 

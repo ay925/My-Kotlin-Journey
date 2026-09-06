@@ -6,7 +6,7 @@ import kotlin.math.sqrt
 class Solution43{
     fun getDivisors(number: Int): List<Int>{
 
-        var divior=mutableSetOf<Int>()
+        val divior=mutableSetOf<Int>()
         for (i in 1..sqrt(number.toDouble()).toInt()){
             if (number%i==0){
                 val m = number/i

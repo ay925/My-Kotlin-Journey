@@ -1,7 +1,5 @@
 package dsa.dsa_master_Sheet
 
-import java.util.Locale
-import java.util.Locale.getDefault
 
 class Solution52 {
     fun isPalindrome(s: String): Boolean {

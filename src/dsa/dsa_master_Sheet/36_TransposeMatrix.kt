@@ -1,7 +1,6 @@
 package dsa.dsa_master_Sheet
 
-
-class Solution35 {
+class Solution36 {
     fun transpose(matrix: Array<IntArray>): Array<IntArray> {
         val rows = matrix.size
         val columns = matrix[0].size
@@ -16,7 +15,7 @@ class Solution35 {
 }
 
 fun main() {
-    val solution = Solution35()
+    val solution = Solution36()
     val result = solution.transpose(
         arrayOf(
             intArrayOf(1, 2,3),

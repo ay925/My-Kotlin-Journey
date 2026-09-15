@@ -1,7 +1,5 @@
 package dsa.dsa_master_Sheet
 
-import kotlin.math.pow
-
 class Solution113 {
     fun myPow(x: Double, n: Int): Double {
         var p =x

@@ -1,8 +1,6 @@
 package self_learning
 
-import com.sun.java.accessibility.util.TopLevelWindowListener
-
-private var TOP =-1
+private var TOP = -1
 private const val SIZE =10
 
 
@@ -32,8 +30,8 @@ fun pop(arr: IntArray): Int{
     return -1
 }
 
-fun peek(): Int{
-    return TOP
+fun peek(arr: IntArray): Int{
+    return arr[TOP]
 }
 fun isEmpty(): Boolean{
     return TOP==-1

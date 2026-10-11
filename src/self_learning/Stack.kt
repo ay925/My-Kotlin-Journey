@@ -6,7 +6,11 @@ private const val SIZE =10
 
 fun main() {
     val arr= IntArray(SIZE)
-
+    push(arr,4)
+    println(arr.contentToString())
+    pop(arr)
+    println(arr.contentToString())
+    println(isEmpty())
 }
 
 fun push(arr: IntArray,n: Int){
@@ -23,7 +27,7 @@ fun pop(arr: IntArray): Int{
         println("Stack UnderFlow")
     }else {
         val n = arr[TOP]
-        arr[TOP+1]=0
+        arr[TOP]=0
         TOP--
         return n
     }

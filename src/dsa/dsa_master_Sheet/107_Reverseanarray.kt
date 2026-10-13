@@ -16,7 +16,6 @@ class Solution107{
         return arr
     }
 }
-
 fun main() {
     val solution = Solution107()
     val result =solution.reverseArray(intArrayOf(1, 4, 3, 2, 6, 5))

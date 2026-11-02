@@ -42,16 +42,6 @@ class LinkedList (var head: Node?=null, var tail:Node?=null) {
             head=temp
         }
     }
-
-    fun insert(value: Int,position: Int){
-        val temp = Node(value)
-        if (head ==null){
-          addAtEnd(value)
-        } else{
-            temp.next =head
-            head=temp
-        }
-    }
 }
 
 fun main(){
@@ -64,5 +54,4 @@ fun main(){
     l.addAtBeginning(25)
     l.display()
     println()
-    println(l.size())
 }

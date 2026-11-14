@@ -18,12 +18,29 @@ class LinkedList(val head: Node) {
 
             temp =temp.next
         }
+        println()
     }
 
     fun displayRecursion(temp: Node? = head) {
-        if (temp==null) return
-        println(temp.data)
+        if (temp==null) {
+            println()
+            return
+        }
+        print(temp.data)
+        if (temp.next!=null) print(" -> ")
         displayRecursion(temp.next)
+    }
+
+    fun length(): Int {
+        var temp:Node?=head
+        var count =0;
+
+        while (temp!=null){
+            count++
+            temp=temp.next
+        }
+        return count
+
     }
 }
 
@@ -45,7 +62,9 @@ fun main(){
     val linkedList = LinkedList(a)
 
 //    linkedList.display()
-    linkedList.displayRecursion()
+    linkedList.display()
+
+    println(linkedList.length())
 
 
 }

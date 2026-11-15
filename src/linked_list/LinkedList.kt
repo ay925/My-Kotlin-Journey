@@ -4,7 +4,7 @@ package linked_list
 class Node(val data: Int, var next: Node?=null)
 
 
-class LinkedList(val head: Node) {
+class LinkedList(var head: Node?=null, val tail: Node?=null) {
 
     fun display() {
         var temp: Node? = head
@@ -33,7 +33,7 @@ class LinkedList(val head: Node) {
 
     fun length(): Int {
         var temp:Node?=head
-        var count =0;
+        var count =0
 
         while (temp!=null){
             count++
@@ -42,12 +42,21 @@ class LinkedList(val head: Node) {
         return count
 
     }
+
+    fun insertAtEnd(data: Int) {
+        val temp = Node(data)
+        if (head==null){
+            head =temp
+            return
+        }
+
+    }
 }
 
 fun main(){
 
     // Create Node
-    val a = Node(13)
+/*    val a = Node(13)
     val b = Node(22)
     val c = Node(31)
     val d = Node(42)
@@ -57,9 +66,11 @@ fun main(){
     a.next=b
     b.next=c
     c.next=d
-    d.next=e
+    d.next=e*/
 
-    val linkedList = LinkedList(a)
+    val linkedList = LinkedList()
+    linkedList.insertAtEnd(2)
+    linkedList.insertAtEnd(4)
 
 //    linkedList.display()
     linkedList.display()
